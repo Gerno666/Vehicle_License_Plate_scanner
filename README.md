@@ -16,3 +16,7 @@ Oppure:
 
 $ pip install opencv-python==versione
 $ py -m pip install numpy
+
+....
+
+Il progetto è in corso di sviluppo.
