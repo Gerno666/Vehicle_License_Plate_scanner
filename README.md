@@ -11,15 +11,8 @@ Per questo progetto sono neccesarie le seguenti librerie:
 
 Per installarle è necesario digitare da riga di comando:
 
-$ pip install opencv-python
-
-$ py -m pip install numpy
-
-Oppure:
-
-$ pip install opencv-python==versione
-
-$ py -m pip install numpy
+- $ pip install opencv-python
+- $ py -m pip install numpy
 
 ....
 
