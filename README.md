@@ -6,7 +6,7 @@ Per l'uso si consiglia una versione almeno pari a quella scritta sopra.
 
 Per questo progetto sono neccesarie le seguenti librerie:
 
-OpenCV
+OpenCV /n
 Numpy
 Per installarle è necesario digitare da riga di comando:
 
