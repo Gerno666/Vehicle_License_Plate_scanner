@@ -28,4 +28,10 @@ Per installarle è necesario digitare da riga di comando:
 
 ....
 
+Nella Cartella 1_Labeling sono state scaricate varie immagini raffiguranti auto con targhe e raccolte nella cartella Images. Qua sono presenti anche file .xml, creati grazie allo strumento "LabelImg", nei quali sono racchiusi informazioni riguardo le posizioni della targhe nelle varie immagini.
+
+È presente anche il file "01_xml_to_csv.ipynb" con il quale andremo ad estrarre queste informazioni e le salveremo nel file Excel "labels.csv".
+
+....
+
 Il progetto è in corso di sviluppo.
