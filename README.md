@@ -33,6 +33,11 @@ Nella Cartella 1_Labeling sono state scaricate varie immagini raffiguranti auto 
 
 È presente anche il file "01_xml_to_csv.ipynb" con il quale andremo ad estrarre queste informazioni e le salveremo nel file Excel "labels.csv".
 
+### Seconda Parte
+Nella Cartella 2_Train_Object_Detection_model andremo ad importare la cartella con le immagini e i file xml presente nella prima cartella ed anche il file "label.csv".
+
+Con "02_Object_Detection.ipynb" andremo ad analizzare il file .csv grazie all'importazione di pandas e xml.etree.ElementTree.
+
 ....
 
 Il progetto è in corso di sviluppo.
