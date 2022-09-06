@@ -1,6 +1,6 @@
 # Vehicle_License_Plate_scanner
 
-Questo progetto è stato testato con la versione Python 3.7.8.
+Per questo progetto è stato usato l'ambiente "Jupyter Notebook" ed è stato testato con la versione Python 3.10.
 
 Per l'uso si consiglia una versione almeno pari a quella scritta sopra.
 
