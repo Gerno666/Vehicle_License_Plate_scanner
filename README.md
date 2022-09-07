@@ -8,7 +8,8 @@ Per questo progetto sono neccesarie le seguenti librerie:
 - Numpy
 - TensorFlow
 - LabelImg
-- 
+- Tesseract
+- Pytesseract
 
 Per installarle è necesario digitare da riga di comando:
 
@@ -22,7 +23,8 @@ Per installarle è necesario digitare da riga di comando:
   $ pip install pyqt5 lxml
   
   $ pyrcc5 -o libs/resources.py resources.qrc
-- 
+- Fare il download online di tesseract-ocr
+- pip install --upgrade pytesseract
 
 ....
 
@@ -37,6 +39,7 @@ Nella Cartella 2_Train_Object_Detection_model andremo ad importare la cartella c
 Con "02_Object_Detection.ipynb" andremo ad analizzare il file .csv grazie all'importazione di pandas e xml.etree.ElementTree. In seguito andremo a costruire la nostra rete neurale attraverso l'utilizzo di Tensorflow e successivamente faremo l'object detection (l'esecuzione di questa parte richiedrà un pò di tempo). Alla fine salveremo il nostro modello nel file "object_detection.h5".
 
 Con "03_Make Predictions.ipynb" invece andremo a caricare il nostro modello e faremo varie prove per testare come esso rileverà le targhe.
+Una volta rilevata la targa nelle immagini, attraverso pytesseract andremo a leggere i vari caratteri presenti in essa.
 
 ....
 
