@@ -34,7 +34,7 @@ Nella Cartella 1_Labeling sono state scaricate varie immagini raffiguranti auto 
 ### Seconda Parte
 Nella Cartella 2_Train_Object_Detection_model andremo ad importare la cartella con le immagini e i file xml presente nella prima cartella ed anche il file "label.csv".
 
-Con "02_Object_Detection.ipynb" andremo ad analizzare il file .csv grazie all'importazione di pandas e xml.etree.ElementTree. In seguito andremo a costruire la nostra rete neurale attraverso l'utilizzo di Tensorflow e successivamente faremo l'object detection (l'esecuzione di questa parte richiedrà un pò di tempo).
+Con "02_Object_Detection.ipynb" andremo ad analizzare il file .csv grazie all'importazione di pandas e xml.etree.ElementTree. In seguito andremo a costruire la nostra rete neurale attraverso l'utilizzo di Tensorflow e successivamente faremo l'object detection (l'esecuzione di questa parte richiedrà un pò di tempo). Alla fine salveremo il nostro modello nel file "object_detection.h5".
 
 ....
 
