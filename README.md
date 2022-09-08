@@ -48,6 +48,6 @@ Nel file "yolo_data_preparation" andiamo a preparare i dati che ci servono. Divi
 
 Dopo aver preparato tutto il necessario, con il file "Training_yolov5.ipynb" andiamo a fare il traning dopo aver importato tutti gli strumenti necessari. Questa operazione richiederà un pò di tempo. Al termine, tutto ciò che ci servirà sarà contenuto nella cartella "yolov5/runs/train/Model2".
 
-Nel file "yolo_predictions" andiamo quindi a caricare il nostro modello Yolo. Rileviamo quindi le targhe e inoltre abbiamo anche l'affidamento del rilevamento taghe e la probabilità. Infine disegniamo il rettangolo che conterrà la targa.
+Nel file "yolo_predictions" andiamo quindi a caricare il nostro modello Yolo. Rileviamo quindi le targhe e inoltre abbiamo anche il punteggio di affidabilità e di probabilità del rilevamento taghe. Infine disegniamo il rettangolo che conterrà la targa.
 
 Grazie all'utilizzo di pytesseract sarà facile rilevare i caratteri che compongono la targa. Per incrementare l'efficienza di pytesseract, applichiamo ancora una volta una funzione per aumentare il contrasto.
