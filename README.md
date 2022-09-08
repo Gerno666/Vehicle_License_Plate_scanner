@@ -36,7 +36,7 @@ Nella Cartella 1_Labeling sono state scaricate varie immagini raffiguranti auto 
 ### Seconda Parte
 Nella Cartella 2_Train_Object_Detection_model importiamo la cartella con le immagini e i file xml presente nella prima cartella ed anche il file "label.csv".
 
-Con "02_Object_Detection.ipynb" analizziamo il file .csv grazie all'importazione di pandas e xml.etree.ElementTree. In seguito costruiamo la nostra rete neurale attraverso l'utilizzo di Tensorflow e successivamente facciamo l'object detection (l'esecuzione di questa parte richiederà un pò di tempo). Alla fine salviamo il nostro modello nel file "object_detection.h5".
+Con "02_Object_Detection.ipynb" analizziamo il file .csv grazie all'importazione di pandas e xml.etree.ElementTree. In seguito costruiamo il nostro modello attraverso l'utilizzo di Tensorflow e successivamente facciamo il traning (l'esecuzione di questa parte richiederà un pò di tempo). Alla fine salviamo il nostro modello nel file "object_detection.h5".
 
 Con "03_Make Predictions.ipynb" invece carichiamo il nostro modello e facciamo varie prove per testare come esso rileva le targhe.
 Una volta rilevata la targa nelle immagini, attraverso pytesseract andiamo a leggere i vari caratteri presenti in essa. Applichiamo una funzione per aumentare il contrasto così da incrementare l'efficienza di pytesseract.
