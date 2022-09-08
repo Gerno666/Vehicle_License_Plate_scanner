@@ -46,7 +46,7 @@ Tutto ciò che abbiamo fatto finora funziona. Tuttavia c'è qualche problema, tr
 
 Nel file "yolo_data_preparation" andremo a preparare i dati che ci servono. Divideremo le immagini in due cartelle, train e test e le analizzeremo di nuovo attraverso il file "labels.csv" che avevamo preparato in precedenza. Salveremo così le informazioni necessarie in dei file ".txt".
 
-Dopo aver preparato tutto il necessario, con il file "Training_yolov5.ipynb" andremo a fare il traning dopo aver importato tutti gli strumenti necessari. Questa operazione richiederà un pò di tempo. Al termine, tutto ciò che ci servirà sarà contenuto nella cartella "yolov5/model".
+Dopo aver preparato tutto il necessario, con il file "Training_yolov5.ipynb" andremo a fare il traning dopo aver importato tutti gli strumenti necessari. Questa operazione richiederà un pò di tempo. Al termine, tutto ciò che ci servirà sarà contenuto nella cartella "yolov5/runs/train/Model2".
 
 
 
