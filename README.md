@@ -36,7 +36,7 @@ Con "03_Make Predictions.ipynb" invece carichiamo il nostro modello e facciamo v
 Una volta rilevata la targa nelle immagini, attraverso pytesseract andiamo a leggere i vari caratteri presenti in essa. Applichiamo una funzione per aumentare il contrasto così da incrementare l'efficienza di pytesseract.
 
 ### Terza Parte
-Tutto ciò che abbiamo fatto finora funziona. Tuttavia c'è qualche problema, tra i quali una precisione bassa nel rilevare la targa e un elaborazione abbastanza lenta. Quindi quello che andremo a fare ora è introdurre l'utilizzo di Yolo, uno degli algoritmi di rilevamento oggetti basati su deep learning più utilizzato in circolazione.
+Tutto ciò che abbiamo fatto finora funziona. Tuttavia c'è qualche problema, tra i quali una precisione bassa nel rilevare la targa e un elaborazione abbastanza lenta. Quindi quello che andremo a fare ora è introdurre l'utilizzo di Yolo, uno degli algoritmi di rilevamento oggetti basati su deep learning più utilizzato in circolazione e lavoreremo nella cartella "3_YoloV5".
 
 Nel file "yolo_data_preparation" andiamo a preparare i dati che ci servono. Dividiamo le immagini in due cartelle, train e test e le analizziamo di nuovo attraverso il file "labels.csv" che avevamo preparato in precedenza. Salviamo così le informazioni necessarie in dei file ".txt".
 
