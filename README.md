@@ -41,6 +41,9 @@ Con "02_Object_Detection.ipynb" andremo ad analizzare il file .csv grazie all'im
 Con "03_Make Predictions.ipynb" invece andremo a caricare il nostro modello e faremo varie prove per testare come esso rileverà le targhe.
 Una volta rilevata la targa nelle immagini, attraverso pytesseract andremo a leggere i vari caratteri presenti in essa.
 
+### Terza Parte
+Tutto ciò che abbiamo fatto finora funziona. Tuttavia c'è qualche problema, tra i quali una precisione bassa nel rilevare la targa e un elaborazione abbastanza lenta. Quindi quello che andremo a fare ora è introdurre l'utilizzo di Yolo, uno degli algoritmi di rilevamento oggetti basati su deep learning più utilizzato in circolazione.
+
 ....
 
 Il progetto è in corso di sviluppo.
