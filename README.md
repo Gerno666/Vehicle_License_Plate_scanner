@@ -43,6 +43,7 @@ Una volta rilevata la targa nelle immagini, attraverso pytesseract andremo a leg
 
 ### Terza Parte
 Tutto ciò che abbiamo fatto finora funziona. Tuttavia c'è qualche problema, tra i quali una precisione bassa nel rilevare la targa e un elaborazione abbastanza lenta. Quindi quello che andremo a fare ora è introdurre l'utilizzo di Yolo, uno degli algoritmi di rilevamento oggetti basati su deep learning più utilizzato in circolazione.
+Nel file "yolo_data_preparation" andremo a preparare i dati che ci servono. Divideremo le immagini in due cartelle, train e test e le analizzeremo di nuovo attraverso il file "labels.csv" che avevamo preparato in precedenza. Salveremo così le informazioni necessarie in dei file ".txt".
 
 ....
 
