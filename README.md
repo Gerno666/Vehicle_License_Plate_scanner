@@ -1,6 +1,6 @@
 # Vehicle_License_Plate_scanner
 
-Per questo progetto è stato usato l'ambiente "Jupyter Notebook" ed è stato testato con la versione Python 3.10.Per l'uso si consiglia una versione almeno pari a quella scritta sopra.
+Per questo progetto è stato usato l'ambiente "Jupyter Notebook" ed è stato testato con la versione Python 3.10. Per l'uso si consiglia una versione almeno pari a quella scritta sopra.
 
 Per questo progetto sono neccesarie le seguenti librerie:
 
@@ -51,8 +51,3 @@ Dopo aver preparato tutto il necessario, con il file "Training_yolov5.ipynb" and
 Nel file "yolo_predictions" andiamo quindi a caricare il nostro modello Yolo. Rileviamo quindi le targhe e inoltre abbiamo anche l'affidamento del rilevamento taghe e la probabilità. Infine disegniamo il rettangolo che conterrà la targa.
 
 Grazie all'utilizzo di pytesseract sarà facile rilevare i caratteri che compongono la targa. Per incrementare l'efficienza di pytesseract, applichiamo ancora una volta una funzione per aumentare il contrasto.
-
-
-....
-
-Il progetto è in corso di sviluppo.
